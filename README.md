@@ -19,3 +19,8 @@ clock, and never calls a model.
 The source is stored as an LZMA payload (the kit's rules allow a
 compressed payload with its unpacker); it unpacks and runs as plain
 Python 3.13, standard library only.
+
+Local practice trial against the house ladder (depth-2, depth-3,
+depth-4, then 100k / 250k / 500k nodes): 5 wins, 1 loss — a practice
+rating of about 1650, above the 1154 entry floor and the ~1365 house
+baseline.
